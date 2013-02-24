@@ -32,9 +32,18 @@ textarea {
 
 /* typography */
 
-.field, th, td{
+a {
+    font-size:1.5em;
+}
+
+.field, th, td {
     padding-left: 15px;
     text-aligh:center;
+    font-size:1.2em;
+}
+
+th {
+    border-bottom: 1px solid $grayMediumLight;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,8 +66,8 @@ h2 {
   color: $grayLight;
 }
 
-p {
-  font-size: 1.1em;
+p b {
+  font-size: 1.2em;
   line-height: 1.7em;
 }
 
