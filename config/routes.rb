@@ -1,7 +1,6 @@
 BookmarkSite::Application.routes.draw do
   resources :bookmarks
 
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
